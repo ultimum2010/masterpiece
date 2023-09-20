@@ -24,9 +24,11 @@ git config --global user.name "Mitt Navn"
 Last ned komplett delebibliotek som [zip-fil](https://library.ldraw.org/updates?latest) og legg den en ny undermappe i Dokumenter-mappen som kalles `LDraw`. Det er ikke behov for å pakke denne ut.
 
 #### LDCad
-Last ned siste versjon som [archive filtype](https://www.melkert.net/LDCad/download), pakk ut, flytt den nye mappen `LDCad-1-7-Beta-1-Win` inn i Dokumenter-mappen og kjør `LDCad64.exe`. Ved første oppstart blir du spurt om å fortelle om hvor `LDraw` mappen fra forrige steg ligger.
+Last ned siste versjon som [archive filtype](https://www.melkert.net/LDCad/download), pakk ut, flytt den nye mappen `LDCad-1-7-Beta-1-Win` inn i Dokumenter-mappen og kjør `LDCad64.exe`.
 
-Legg merke til at skole-PCen gir deg vansker med å hente denne fra nettsiden. Hent derfor heller den kopien som ligger på lagets Google-drive.
+Ved første oppstart får du først et varsel om at Windows har beskyttet PCen fordi dette er ukjent programvare. Trykk på **Mer info** og så på **Kjør likevel**. Deretter må du akseptere lisensavtalen før du blir spurt om å fortelle om hvor `LDraw` mappen fra forrige steg ligger.
+
+*Legg merke til at skole-PCen gir deg vansker med å hente denne fra nettsiden. Hent derfor heller den kopien som ligger på lagets Google-drive.*
 
 ## Forskjellige resurser vi har brukt
 * [EV3 MicroPython](https://pybricks.com/ev3-micropython/)
