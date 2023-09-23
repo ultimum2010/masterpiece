@@ -31,6 +31,6 @@ måte som gjør den morsom og engasjerende?
   - Ta med hvem som kan være kontaktperson for pengene
 - Legge ut på GitHub.
 
-# Lagbeskrivelse
+#   Lagbeskrivelse
  - Beskrivelse av laget. Skrevet av ChatGPT
     - Legge ut på GitHub
