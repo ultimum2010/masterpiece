@@ -1,3 +1,2 @@
-# masterpiece
-
-Her er lag Ultimums arbeid med First Lego League i 2023 sesongen.
+# Team description 
+We are a first lego league team called Ultimum. We are two boys and two girls. We have different hobbies, piano, guitar, dancing, swimming, and tenor horn. We are all 13 and 12 years old, born in 2010. We have been doing FLL for 5 years now, so this will be our 6. year. Though we don’t have all the other team members as we had last year, we don’t want to do anything but our best. 
