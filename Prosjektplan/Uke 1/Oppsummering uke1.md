@@ -3,6 +3,8 @@
 Diskusjon med alle
 - Hvordan har samarbeidet fungert den sista uka?
     - La oss beskrive konkrete historier
+    - Fortell om dere fikk til å jobbe på egenhånd
+    - Diskuter om dere ønsker faste dager
 
 Har vi brukt noen Kjerneverdier?
 - Moro
