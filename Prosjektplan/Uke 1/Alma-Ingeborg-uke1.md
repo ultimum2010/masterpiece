@@ -26,11 +26,11 @@ måte som gjør den morsom og engasjerende?
 
 
 
-# Sponsorarbeid
+# Sponsorarbeid - FERDIG
 - Fullføre sponsorbrev skrevet av ChatGPT. 
   - Ta med hvem som kan være kontaktperson for pengene
 - Legge ut på GitHub.
 
-# Lagbeskrivelse
+#   Lagbeskrivelse - FERDIG
  - Beskrivelse av laget. Skrevet av ChatGPT
     - Legge ut på GitHub
