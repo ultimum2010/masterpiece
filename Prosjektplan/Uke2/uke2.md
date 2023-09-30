@@ -1,7 +1,7 @@
 # Felles øving lørdag
 ## Teknologi
 - Strategi
-   - Finne mest mulig optimal strategi med å prøve lage ny modell
+   - Finne mest mulig optimal strategi med å prøve bruke tilnærmingen fra i fjor
 - Øve på presentasjon
 ## Forskning
 - Gå gjennom intervjumal
