@@ -4,7 +4,7 @@
 - Legge ut på GitHub.
 - __Alma og Ingeborg__
 <br><br>
-- Sende sponsorbrev
+- Sende sponsorbrev, trenger lagbildet
    - Voksne
 <br><br>
 - Ingeborg får t-skjorte neste helg
@@ -19,7 +19,7 @@
     - Mufrid
  - Midlertidig lagbilde
     - Mufrid
- - Beskrivelse av laget. Skrevet av ChatGPT
+ - FERDIG Beskrivelse av laget. Skrevet av ChatGPT
     - Legge ut på GitHub
  - Alma og Ingeborg
 
