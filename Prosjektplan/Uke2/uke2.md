@@ -1,3 +1,12 @@
+# Mål uke 2
+- Bli enige om hvilke oppdrag vi skal starte med
+- Bygge verktøy
+- Få til et oppdrag med Mindstorms
+- Gjennomgå forslag til eksperter
+- Lag intervju med eksperter
+- Intervju noen eksperter
+- Finne problemstilling
+
 # Felles øving lørdag
 ## Teknologi
 - Strategi
