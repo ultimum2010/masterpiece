@@ -7,7 +7,7 @@ ingeborg = "Ingeborg"
 sivert = "Sivert"
 kasper = "Kasper"
 hello = "Hello World"
-tolv = 8           #Kasper var her
+tolv = 12           #Kasper var her
 
 #Dette er en klassiker i programmering
 print(hello)
