@@ -7,10 +7,15 @@ ingeborg = "Ingeborg"
 sivert = "Sivert"
 kasper = "Kasper"
 hello = "Hello World"
-tolv = 9
+tolv =  12        #Kasper var her
+gass= "oksygen" 
+kult= "kjempe mega kult"
 
 #Dette er en klassiker i programmering
 print(hello)
 
 #Denne gir kanskje ikke helt det resultatet man skulle forvente?
 print(alma, "er", tolv+1, "år")
+print(gass, "er", "viktig")
+print("pappa spiser ribbe med teskje")
+print("Er det ikke", kult)
