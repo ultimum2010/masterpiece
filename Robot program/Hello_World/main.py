@@ -29,12 +29,15 @@ gyro = GyroSensor(Port.S4)
 
 #chewie.screen.draw_text(1, 1, a, text_color=Color.BLACK, background_color=None)
 
-#for x in range(101):
-while True:
-    a = gyro.angle()
-    print(a)
-    #chewie.screen.draw_text(1, 1, x, text_color=Color.BLACK, background_color=Color.WHITE)
-    wait(20)
-#chewie.screen.print("hello world", )
+ØNSKET_RETNING = -90
+
+for x in range(100):
+    gyrovinkel = gyro.angle()
+    svinge_hastighet = gyrovinkel - ØNSKET_RETNING
+    kjor.drive(150, svinge_hastighet)
+    chewie.screen.draw_text(10, 10, x, text_color=Color.BLACK, background_color=Color.WHITE)
+    wait(100)
+kjor.stop()
 wait(1000)
-#kjor.gyro()
+chewie.speaker.beep(1000, 1000)
+#chewie.screen.print("hello world")
