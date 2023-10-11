@@ -22,18 +22,18 @@ class Chewbacca:
     LEFT_COLOR_SENSOR = Port.S3
     GYRO_SENSOR = Port.S4
 
-    brain: EV3Brick
+    global brain#: EV3Brick
 
-    motor_R: Motor
-    motor_L: Motor
-    motor_work_R: Motor
-    motor_work_L: Motor
+    global motor_R#: Motor
+    global motor_L#: Motor
+    global motor_work_R#: Motor
+    global motor_work_L#: Motor
 
-    drive: DriveBase
+    global drive#: DriveBase
 
-    color_R: ColorSensor
-    color_L: ColorSensor
-    gyro: GyroSensor
+    global color_R#: ColorSensor
+    global color_L#: ColorSensor
+    global gyro#: GyroSensor
 
 
     def __init__(self) -> None:
@@ -48,4 +48,32 @@ class Chewbacca:
         self.gyro = GyroSensor(self.GYRO_SENSOR)
 
     def beep(self):
-        self.brain.speaker()
+        self.brain.speaker.beep()
+        wait(1000)
+
+
+
+    def trippteller(self):
+        Trippteller = self.motor_R + self.motor_L / 2
+        return Trippteller
+
+
+
+    def p_ctrl(self, target, current, kP):
+        error = target - current
+        controlSignal = kP * error
+
+        return controlSignal
+
+
+
+
+    def line_follower(self, fargesensor: ColorSensor, driveBase: DriveBase, speed, kP, distance):
+        while True:
+            svart_hvit = 55
+            lysstyrke = fargesensor.reflection()
+            retning =  self.p_ctrl(svart_hvit, lysstyrke, kP)
+            driveBase.drive(speed, retning)
+
+    
+
