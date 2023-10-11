@@ -22,18 +22,7 @@ class Chewbacca:
     LEFT_COLOR_SENSOR = Port.S3
     GYRO_SENSOR = Port.S4
 
-    global brain#: EV3Brick
-
-    global motor_R#: Motor
-    global motor_L#: Motor
-    global motor_work_R#: Motor
-    global motor_work_L#: Motor
-
-    global drive#: DriveBase
-
-    global color_R#: ColorSensor
-    global color_L#: ColorSensor
-    global gyro#: GyroSensor
+    
 
 
     def __init__(self) -> None:
@@ -42,15 +31,10 @@ class Chewbacca:
         self.motor_L = Motor(self.PORT_LEFT_MOTOR)
         self.motor_work_R = Motor(self.PORT_RIGHT_WORK_MOTOR)
         self.motor_work_L = Motor(self.PORT_LEFT_WORK_MOTOR)
-        self.drive = DriveBase(self.motor_L, self.motor_R, self.WHEEL_DIAMETER, self.WHEEL_DISTANSE)
+        self.driveBase = DriveBase(self.motor_L, self.motor_R, self.WHEEL_DIAMETER, self.WHEEL_DISTANSE)
         self.color_R = ColorSensor(self.RIGHT_COLOR_SENSOR)
         self.color_L = ColorSensor(self.LEFT_COLOR_SENSOR)
         self.gyro = GyroSensor(self.GYRO_SENSOR)
-
-    def beep(self):
-        self.brain.speaker.beep()
-        wait(1000)
-
 
 
     def trippteller(self):
@@ -65,7 +49,24 @@ class Chewbacca:
 
         return controlSignal
 
+    def beep(self):
+        self.brain.speaker.beep()
+        wait(1000)
 
+
+    def drive_gyro_dist(self, speed, target_angle, target_distance):
+        reached_goal = False
+        self.driveBase.reset()
+
+        while not reached_goal:
+            gyrovinkel = self.gyro.angle()
+            svinge_hastighet = self.p_ctrl(target_angle, gyrovinkel, 1)
+            self.driveBase.drive(speed, svinge_hastighet)
+
+            distance = self.driveBase.distance()
+            reached_goal = distance >= target_distance
+
+        self.driveBase.stop()
 
 
     def line_follower(self, fargesensor: ColorSensor, driveBase: DriveBase, speed, kP, distance):
