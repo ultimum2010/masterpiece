@@ -13,8 +13,7 @@ Bedre å ha en problemstilling som er viktig for mange ikke bare oss
 - Kan fokusere på musikk i problemstillingen
 
 
-# Mål for uke 4
-Tirsdag
+# Mål for uke 4 - Neste tirsdag
 # Forskning
 - finne fagfolk innen løsningen
 - videreutvikle løsningen med å kombinere teknologi
@@ -29,6 +28,6 @@ Tirsdag
 
 # Veileder
 - Legge ut lagbilde
-- Sponsorer, SKS
+- Sjekke om voksne har fått tak i sponsorer
 
-Lørdag
+# Mål for uke 5 - Lørdag
