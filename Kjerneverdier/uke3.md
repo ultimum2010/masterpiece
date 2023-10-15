@@ -2,7 +2,7 @@
 
 * Klarte å bestemme oss til å bruke Python
 	* Sivert inviterte Kasper hjem så kunne de lære Python
-	* Kasper fant ut at Python var letter enn han trodde
+	* Kasper fant ut at Python var lettere enn han trodde
 		* Oppdagelse
 		* Trodde det skulle bli vanskelig fordi det var annerledes
 			* Inkludering
