@@ -1,7 +1,12 @@
 # Mål for uke 5 - Tirsdag
 # Forskning
 - finne fagfolk innen løsningen
+    - hvorfor er det pengemangelen?
+    - hvem kan gi oss svar på det?
+        - spør Tom Rune igjen
+        - kan vi forske frem svare selv?  
 - videreutvikle løsningen med å kombinere teknologi
+    - bruke tid på dette
 
 # Teknologi
 - rydde opp i GitHub
