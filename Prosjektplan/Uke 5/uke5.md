@@ -16,7 +16,7 @@
 - Sende ut mini presentasjon
 - Video med teambuilding - Taco kveld
 - Legge ut lenke til tidligere robottegninger
-- Legge ut lenke til GitHub for å få mer oppmerksom
+- Legge ut lenke til GitHub for å få mer oppmerksomhet
 
 # Veileder
 - Legge ut lagbilde
