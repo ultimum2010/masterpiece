@@ -4,7 +4,7 @@
     - hvorfor er det pengemangelen?
     - hvem kan gi oss svar på det?
         - spør Tom Rune igjen
-        - kan vi forske frem svare selv?  
+        - kan vi forske frem svar selv?  
 - videreutvikle løsningen med å kombinere teknologi
     - bruke tid på dette
 
