@@ -6,17 +6,21 @@ from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
 
-
+class Direction:
+    LEFT = 0
+    RIGHT = 1
 
 class Chewbacca:
+    LEFT = 0
+    RIGHT = 1
 
     WHEEL_DIAMETER = 88.5
     WHEEL_DISTANSE = 98.4
 
     PORT_RIGHT_MOTOR = Port.D
     PORT_LEFT_MOTOR = Port.A
-    PORT_RIGHT_WORK_MOTOR = Port.C
-    PORT_LEFT_WORK_MOTOR = Port.B
+    PORT_RIGHT_WORK_MOTOR = Port.B
+    PORT_LEFT_WORK_MOTOR = Port.C
 
     RIGHT_COLOR_SENSOR = Port.S1
     LEFT_COLOR_SENSOR = Port.S3
@@ -60,7 +64,7 @@ class Chewbacca:
 
         while not reached_goal:
             gyrovinkel = self.gyro.angle()
-            svinge_hastighet = self.p_ctrl(target_angle, gyrovinkel, 1)
+            svinge_hastighet = gyrovinkel - target_angle
             self.driveBase.drive(speed, svinge_hastighet)
 
             distance = self.driveBase.distance()
@@ -76,5 +80,28 @@ class Chewbacca:
             retning =  self.p_ctrl(svart_hvit, lysstyrke, kP)
             driveBase.drive(speed, retning)
 
-    
+
+
+    def work_motor_L(self, speed, target_rotation):
+        reached_goal = False
+
+        while not reached_goal:
+            self.motor_work_L.run_target(speed, target_rotation)
+
+    def work_motor_R(self,  speed, target_rotation):
+        reached_goal = False
+
+        while not reached_goal:
+            self.motor_work_R.run_target(speed, target_rotation)
+
+    def TestAvSide(self, side):
+        if side == "right":
+            print("rett")
+
+        elif side == "left":
+            print("galt")
+
+        else:
+            print("skjønte ikke hva du mente")
+
 
