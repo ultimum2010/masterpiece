@@ -18,8 +18,8 @@
 * Holde fokus når vi jobber
 	* Behold motivasjon
 * Finne løsning på bygging av verktøy
-* Lete etter kilder på nett
-	* aviser er ikke gratis lenger
+* **Lete etter kilder på nett**
+	* **aviser er ikke gratis lenger**
 
 # Forslag
 
