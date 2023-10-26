@@ -7,7 +7,7 @@ ingeborg = "Ingeborg"
 sivert = "Sivert"
 kasper = "Kasper"
 hello = "Hello World"
-tolv =  11
+tolv =  12
 gass= "oksygen" 
 kult= "kjempe mega kult"
 
