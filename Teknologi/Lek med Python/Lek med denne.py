@@ -7,7 +7,7 @@ ingeborg = "Ingeborg"
 sivert = "Sivert"
 kasper = "Kasper"
 hello = "Hello World"
-tolv =  12        #Kasper var her
+tolv =  11
 gass= "oksygen" 
 kult= "kjempe mega kult"
 
@@ -15,8 +15,4 @@ kult= "kjempe mega kult"
 print(hello)
 
 #Denne gir kanskje ikke helt det resultatet man skulle forvente?
-print(alma, "er", tolv+1, "år")
-print(gass, "er", "viktig")
-print("pappa spiser ribbe med teskje")
-print("Er det ikke", kult)
-print(alma," er", tolv+1, "år og trenger", gass, "for å leve")
+print(ingeborg, "er", tolv+1, "år")
