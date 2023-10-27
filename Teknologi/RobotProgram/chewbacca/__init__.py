@@ -33,8 +33,8 @@ class Chewbacca:
         self.brain = EV3Brick()
         self.motor_R = Motor(self.PORT_RIGHT_MOTOR)
         self.motor_L = Motor(self.PORT_LEFT_MOTOR)
-        self.motor_work_R = Motor(self.PORT_RIGHT_WORK_MOTOR)
-        self.motor_work_L = Motor(self.PORT_LEFT_WORK_MOTOR)
+        self.__motor_work_R__ = Motor(self.PORT_RIGHT_WORK_MOTOR)
+        self.__motor_work_L__ = Motor(self.PORT_LEFT_WORK_MOTOR)
         self.driveBase = DriveBase(self.motor_L, self.motor_R, self.WHEEL_DIAMETER, self.WHEEL_DISTANSE)
         self.color_R = ColorSensor(self.RIGHT_COLOR_SENSOR)
         self.color_L = ColorSensor(self.LEFT_COLOR_SENSOR)
@@ -83,16 +83,12 @@ class Chewbacca:
 
 
     def work_motor_L(self, speed, target_rotation):
-        reached_goal = False
-
-        while not reached_goal:
-            self.motor_work_L.run_target(speed, target_rotation)
+    
+        self.__motor_work_L__.run_angle(speed, target_rotation)
 
     def work_motor_R(self,  speed, target_rotation):
-        reached_goal = False
 
-        while not reached_goal:
-            self.motor_work_R.run_target(speed, target_rotation)
+        self.__motor_work_R__.run_angle(speed, target_rotation)
 
     def TestAvSide(self, side):
         if side == "right":
@@ -103,5 +99,17 @@ class Chewbacca:
 
         else:
             print("skjønte ikke hva du mente")
+
+    def vri_grader(self, speed, target_angle):
+        reached_goal = False
+
+        while not reached_goal:
+            gyrovinkel = self.gyro.angle()
+            svinge_hastighet = gyrovinkel - target_angle
+            self.driveBase.drive(speed, 90)
+
+            reached_goal = gyrovinkel >= target_angle
+
+        self.driveBase.stop
 
 
