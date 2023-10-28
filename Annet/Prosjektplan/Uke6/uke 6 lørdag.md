@@ -19,10 +19,12 @@
 - Sette opp PC til Ingeborg
 ## Lunsj 14-15
 ## CoWork
-- Presentasjon for tilbakemelding for Tom-Rune
+- Presentasjon for tilbakemelding fra Tom-Rune
 - Diskusjon om deling av løsningen med flere
   - elever, rektor på barne eller ungdomsskoleskole, SFO, foreldre
 - Planlegging presentasjoner
+  - Skal vi ta med instrumentene på presentasjon?
+  - Kan vi ha hele presentasjonen i Minecraft der hele prosessen synliggjøres?
 - Planlegging neste to uker
 - Sette mål tirsdag
 ## Middag 1730-19
