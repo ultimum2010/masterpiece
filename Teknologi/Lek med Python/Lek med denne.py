@@ -16,3 +16,6 @@ print(hello)
 
 #Denne gir kanskje ikke helt det resultatet man skulle forvente?
 print(ingeborg, "er", tolv+1, "år")
+
+#Denne gir kanskje ikke helt det resultatet man skulle forvente?
+print(alma, "er",tolv+3, "år")
