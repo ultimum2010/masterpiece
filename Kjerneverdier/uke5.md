@@ -27,6 +27,12 @@
 ## Spør Alma og Ingeborg om hjelp hvis det er for mye å gjøre
 	* Vi er ett lag
 	* Vi er ikke et forskningslag og ikke et teknologilag
+### Hvordan gikk det å hjelpe hverandre?
+    * Fikk til å løse par oppdrag nesten
+	* Bra med servering
+	* Tungt når motoren stoppet
+	* Tungt når roboten gikk tom for strøm
+	* Gøy når vi bygde modellen
 ## Velg å gjøre det du får best resultat ut av
 	* Vi valgte å starte med oppdrag som hadde nesten ferdig verktøy og kunne gjøres enkelt og samtidig med mye poeng
 ## Øk motivasjon ved å ta pauser og gjøre noe artig i pausen
