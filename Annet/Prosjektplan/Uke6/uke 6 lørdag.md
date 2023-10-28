@@ -15,10 +15,10 @@
 
 
 # FLL lørdag
-- Programmering 12-14
+- Programmering 12-16
 - Sette opp PC til Ingeborg
 ## Lunsj 14-15
-## CoWork
+## CoWork 16-17
 - Presentasjon for tilbakemelding fra Tom-Rune
 - Diskusjon om deling av løsningen med flere
   - elever, rektor på barne eller ungdomsskoleskole, SFO, foreldre
@@ -27,6 +27,6 @@
   - Kan vi ha hele presentasjonen i Minecraft der hele prosessen synliggjøres?
 - Planlegging neste to uker
 - Sette mål tirsdag
-## Middag 1730-19
-Bowling 19-20
+## Middag 17-18
+Hjem
 
