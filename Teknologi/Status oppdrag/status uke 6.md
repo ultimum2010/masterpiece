@@ -7,7 +7,7 @@
 - Løser oppdrag
 - Robot drar ikke tilbake
 
-# Oppdrag 15
+# Oppdrag 14
 - Løser oppdrag, leverer publikum 2 stk
 - Motor stopper og jobber sakte
 - Mistenker lite batteri
