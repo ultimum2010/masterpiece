@@ -23,3 +23,6 @@
 - Sjekke om voksne har fått tak i sponsorer
 
 # Mål for uke 5 - Lørdag
+
+# Teknologi
+

@@ -1,0 +1,13 @@
+# Mål frem til lørdag
+- Frem til fredag: 
+  - Forbedre vår problemstilling - hva mener vi med pengemangel?
+  - Ingeborg og Alma prøver å lete på nett: 
+     - Hvor mye penger får kulturskolen hvert år? 
+     - Har kulturskolen fått mer eller mindre penger i de siste 5/10 år
+     - Hvordan og om korps får penger fra kulturskolen?
+        - Hvor mye penger går til korps fra kulturskolen?
+  - Mufrid finner hvem i kommunen som har med tildeling av penger til kulturskolen
+- Torsdag
+   - Jobbe videre med modellen i Minecraft
+- Fredag
+   - Vi møtes ca 1730 og jobber med problemstillingen
