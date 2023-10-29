@@ -14,7 +14,7 @@
 Skrive rapport med AI
 
 # Generalprøve
-Diskutere digita generalprøve
+Diskutere digital generalprøve
 
 # PIT
 Spør Tom-Rune om å bidra med design
