@@ -12,3 +12,6 @@
 - Motor stopper og jobber sakte
 - Mistenker lite batteri
 - Se på verktøyet
+
+# Verktøy
+Det gjenstår å gjøre helt ferdig det ene verktøyet 
