@@ -12,9 +12,7 @@
     - Kan løsningen være aktuell både for skolene og for kulturskolene?
     - Vil kulturskolen kunne skaffe penger til en slik løsning?  
   - Spørre hva som skal til for å lage et nytt skolefag
-    - Lettere å endre på eksisterende fag eller lage nytt valgfalg: Sjekk læreplaner Musikk, K&H, Gym, Produksjon og scene ofte som valgfag
-    - Finne ut om løsningen passer med læreplaner og kompetansemål
-    - Hvordan kan vårt fag nå kompetansemål
+    
 
 ## Torsdag Alma
 - Skrive rapport med AI
