@@ -6,3 +6,6 @@
 - Tom-Rune Borgan
    - Leder, Støver Korps frem til 2023
    - Intervjuet om problemstillingen
+- Claus Sohn Andersen
+   - Høyskolelektor i Lydteknikk og musikkproduksjon
+   - Institutt for musikk, Høyskolen Kristiania

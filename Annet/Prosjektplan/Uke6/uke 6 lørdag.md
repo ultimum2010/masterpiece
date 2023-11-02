@@ -13,7 +13,6 @@
 - Fullføre verktøy
 - Begynne å programmere på et oppdrag
 
-
 # FLL lørdag
 - Programmering 12-16
 - Sette opp PC til Ingeborg
@@ -26,7 +25,11 @@
   - Skal vi ta med instrumentene på presentasjon?
   - Kan vi ha hele presentasjonen i Minecraft der hele prosessen synliggjøres?
 - Planlegging neste to uker
+
 - Sette mål tirsdag
+
 ## Middag 17-18
 Hjem
+
+
 
