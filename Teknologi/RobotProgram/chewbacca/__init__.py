@@ -62,13 +62,23 @@ class Chewbacca:
         reached_goal = False
         self.driveBase.reset()
 
-        while not reached_goal:
-            gyrovinkel = self.gyro.angle()
-            svinge_hastighet = gyrovinkel - target_angle
-            self.driveBase.drive(speed, svinge_hastighet)
+        rygger = False
+        if speed < 0:
+            rygger = True
+            speed = -1 * speed
+            
+        if target_distance < 0:
+            rygger = True
+            target_distance = -1 * target_distance
+            
+        if not rygger:
+            while not reached_goal:
+                gyrovinkel = self.gyro.angle()
+                svinge_hastighet = gyrovinkel - target_angle
+                self.driveBase.drive(speed, svinge_hastighet)
 
-            distance = self.driveBase.distance()
-            reached_goal = distance >= target_distance
+                distance = self.driveBase.distance()
+                reached_goal = distance >= target_distance
 
         self.driveBase.stop()
 
