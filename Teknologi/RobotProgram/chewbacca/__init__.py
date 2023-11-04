@@ -62,13 +62,35 @@ class Chewbacca:
         reached_goal = False
         self.__driveBase__.reset()
 
-        while not reached_goal:
-            gyrovinkel = self.gyro.angle()
-            svinge_hastighet = gyrovinkel - target_angle
-            self.__driveBase__.drive(speed, svinge_hastighet)
+        rygger = False
+        if speed < 0:
+            rygger = True
+            speed = -1 * speed
 
-            distance = self.__driveBase__.distance()
-            reached_goal = distance >= target_distance
+        if target_distance < 0:
+            rygger = True
+            target_distance = -1 * target_distance
+
+        if not rygger:
+            #kjøres når du ikke rygger
+            while not reached_goal:
+                gyrovinkel = self.gyro.angle()
+                svinge_hastighet = gyrovinkel - target_angle
+                self.__driveBase__.drive(speed, svinge_hastighet)
+
+                distance = self.__driveBase__.distance()
+                reached_goal = distance >= target_distance
+
+        else:
+            #kjøres når du rygger
+            while not reached_goal:
+                gyrovinkel = self.gyro.angle()
+                svinge_hastighet = gyrovinkel - target_angle
+                self.__driveBase__.drive(speed * -1, svinge_hastighet)
+
+                distance = self.__driveBase__.distance()
+                reached_goal = distance <= target_distance * -1
+
 
         self.__driveBase__.stop()
 
@@ -100,17 +122,8 @@ class Chewbacca:
         else:
             print("skjønte ikke hva du mente")
 
-    def vri_grader(self, speed, target_angle):
-        reached_goal = False
-
-        while not reached_goal:
-            gyrovinkel = self.gyro.angle()
-            svinge_hastighet = gyrovinkel - target_angle
-            self.__driveBase__.drive(speed, 90)
-
-            reached_goal = gyrovinkel >= target_angle
-
-        self.__driveBase__.stop
+    def vri_grader(self, target_angle):
+        self.__driveBase__.turn(target_angle)
 
     def straight(self, distance):
             self.__driveBase__.straight(distance)
