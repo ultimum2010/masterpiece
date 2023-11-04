@@ -4,6 +4,7 @@ from pybricks.tools import wait
 from pybricks.parameters import Button
 
 import M14_40p
+import M12_13
 import M07
 import M01
 
@@ -77,7 +78,7 @@ while True:
                 elif prognr == 2:
                     M14_40p.run(chewie)
                 elif prognr == 3:
-                    pass
+                    M12_13.run(chewie)
                 elif prognr == 4:
                     pass
                 elif prognr == 5:
