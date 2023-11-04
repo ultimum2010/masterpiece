@@ -2,6 +2,7 @@
 from chewbacca import Chewbacca
 from pybricks.tools import wait
 from pybricks.parameters import Button
+import M12_13
 
 import M14_40p
 import M07
@@ -77,7 +78,7 @@ while True:
                 elif prognr == 2:
                     M14_40p.run(chewie)
                 elif prognr == 3:
-                    pass
+                    M12_13.run(chewie)
                 elif prognr == 4:
                     pass
                 elif prognr == 5:
