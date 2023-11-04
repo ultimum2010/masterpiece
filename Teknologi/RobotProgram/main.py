@@ -3,6 +3,8 @@ from chewbacca import Chewbacca
 from pybricks.tools import wait
 from pybricks.parameters import Button
 
+import M14_40p
+
 chewie = Chewbacca()
 
 # init konstanter her
@@ -10,7 +12,7 @@ PROGNR_MAX = 9
 PROGNR_MIN = -2
 
 # init variabler her
-prognr = -1
+prognr = 4
 
 while True:
 
@@ -71,11 +73,11 @@ while True:
                 elif prognr == 1:
                     pass
                 elif prognr == 2:
-                    pass
+                    M14_40p.run(chewie)
                 elif prognr == 3:
                     pass
                 elif prognr == 4:
-                    chewie.beep()
+                    pass
                 elif prognr == 5:
                     pass
                 elif prognr == 6:
