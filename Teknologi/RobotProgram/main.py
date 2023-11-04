@@ -95,4 +95,4 @@ while True:
     #vent til knapp er ute
     while chewie.brain.buttons.pressed() != []:
         #sitt fast her til ingen knapper er trykt
-        pass
+        pass #Ingen ting å gjøre. Best å vente litt til.
