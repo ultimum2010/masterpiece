@@ -4,6 +4,7 @@ from pybricks.tools import wait
 from pybricks.parameters import Button
 
 import M14_40p
+import M07
 
 chewie = Chewbacca()
 
@@ -12,7 +13,7 @@ PROGNR_MAX = 9
 PROGNR_MIN = -2
 
 # init variabler her
-prognr = 4
+prognr = 0
 
 while True:
 
@@ -71,7 +72,7 @@ while True:
                 elif prognr == 0:
                     pass
                 elif prognr == 1:
-                    pass
+                    M07.run(chewie)
                 elif prognr == 2:
                     M14_40p.run(chewie)
                 elif prognr == 3:
