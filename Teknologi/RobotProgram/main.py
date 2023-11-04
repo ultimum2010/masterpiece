@@ -5,6 +5,7 @@ from pybricks.parameters import Button
 
 import M14_40p
 import M07
+import M01
 
 chewie = Chewbacca()
 
@@ -82,7 +83,7 @@ while True:
                 elif prognr == 5:
                     pass
                 elif prognr == 6:
-                    pass
+                    M01.run(chewie)
                 elif prognr == 7:
                     pass
                 elif prognr == 8:
