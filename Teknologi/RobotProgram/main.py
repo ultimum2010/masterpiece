@@ -72,6 +72,11 @@ while True:
         else:
             #sjekker om midten er trykt
             if Button.CENTER in knapp_verdi:
+
+                #venter til knappen er oppe før vi kjører programmet
+                while chewie.brain.buttons.pressed() != []:
+                    pass
+
                 if prognr == -2:
                     pass
                 elif prognr == -1:
