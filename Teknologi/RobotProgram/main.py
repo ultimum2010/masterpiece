@@ -53,6 +53,9 @@ while True:
     while not knapp_er_trykt:
         knapp_verdi = chewie.brain.buttons.pressed() 
 
+        #sjekker om gyrosensoren drifter. resultat med farge
+        chewie.gyro_svimmel()
+
         #er alle knapper ute
         if knapp_verdi:
             knapp_er_trykt = True

@@ -128,3 +128,14 @@ class Chewbacca:
     def straight(self, distance):
             self.__driveBase__.straight(distance)
 
+    def gyro_svimmel(self):
+        vinkelhastighet = self.gyro.speed()
+
+        vinkelhastighet = abs(vinkelhastighet)
+
+        if vinkelhastighet <= 1:
+            self.brain.light.on(Color.GREEN)
+
+        else:
+            self.brain.light.on(Color.RED)
+
