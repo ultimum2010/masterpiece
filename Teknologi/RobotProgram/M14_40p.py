@@ -55,7 +55,7 @@ def run(chewbacca):
 
     startPrepos() 
     #kjøring til mål
-    chewie.drive_gyro_dist(100, 0, 100)
+    chewie.drive_gyro_dist(200, 0, 100, False)
     chewie.drive_gyro_dist(200, 20, 620)
     endPrepos()
 
@@ -68,7 +68,7 @@ def run(chewbacca):
 
     chewie.__motor_work_L__.run_angle(-1500, 800)
 
-    chewie.drive_gyro_dist(-200, 15, -645)
+    chewie.drive_gyro_dist(-200, 15, -690)
 
     chewie.__driveBase__.stop()
     chewie.__motor_work_L__.stop()
