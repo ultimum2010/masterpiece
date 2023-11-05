@@ -2,7 +2,7 @@
 ## Intro
 * Hva vi har til felles
 * Introduskjon av laget 
-## Problemstilling'
+## Problemstilling
 * Hvordan vi kom frem til problemstillingen
 * Intervju med Tom Rune, tidligere leder i Støver skolekorps om problemstilling
 * Vår problemstilling 
