@@ -4,7 +4,7 @@ from pybricks.tools import wait
 from pybricks.parameters import Button
 import M12_13
 
-import M14_40p
+import M14
 import M12_13
 import M07
 import M01
@@ -80,13 +80,13 @@ while True:
                 if prognr == -2:
                     pass
                 elif prognr == -1:
-                    pass
+                    chewie.gyro_kalibrer()
                 elif prognr == 0:
                     M04.run(chewie)
                 elif prognr == 1:
                     M07.run(chewie)
                 elif prognr == 2:
-                    M14_40p.run(chewie)
+                    M14.run(chewie)
                 elif prognr == 3:
                     M12_13.run(chewie)
                 elif prognr == 4:
