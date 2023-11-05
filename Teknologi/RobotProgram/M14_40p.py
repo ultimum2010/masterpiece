@@ -60,8 +60,8 @@ def run(chewbacca):
     endPrepos()
 
     #dispensing av publikum
-    for i in range(1):
-        dispense_publikum_fort()
+    for i in range(6):
+        dispense_publikum()
     wait(500)
 
     chewie.__motor_work_R__.stop()
