@@ -7,6 +7,8 @@ def run(en_Chewbacca_som_kommer_fra_utsiden):
     chewie = en_Chewbacca_som_kommer_fra_utsiden
     
     wait(500)
+    # de neste 3 linjene gjør slik at roboten kjører til installasjonen
     chewie.gyro.reset_angle(0)
     chewie.motor_R.run_angle(70, 130)
-    chewie.drive_gyro_dist(100, 50, 350)
+    chewie.drive_gyro_dist(100, 50, 470)
+    chewie.beep()
