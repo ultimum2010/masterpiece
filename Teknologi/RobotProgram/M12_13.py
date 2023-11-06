@@ -3,12 +3,15 @@ from chewbacca import Chewbacca
 from pybricks.tools import wait
 
 def run(en_Chewbacca_som_kommer_fra_utsiden):
-    #chewie = Chewbacca()
-    chewie = en_Chewbacca_som_kommer_fra_utsiden
+    chewie = Chewbacca()
+    #chewie = en_Chewbacca_som_kommer_fra_utsiden
     
     wait(500)
     # de neste 3 linjene gjør slik at roboten kjører til installasjonen
     chewie.gyro.reset_angle(0)
     chewie.motor_R.run_angle(70, 130)
     chewie.drive_gyro_dist(100, 50, 470)
+    chewie.motor_L.run_angle(40, 70)
+    # nå skal roboten kjøre tannhjulet rundt ved bruk av høyre motor
+    chewie.__motor_work_R__.run_angle(1500, 1600)
     chewie.beep()
