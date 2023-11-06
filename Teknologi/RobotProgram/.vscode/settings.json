@@ -3,9 +3,5 @@
 	"files.eol": "\n",
 	"debug.openDebug": "neverOpen",
 	"python.linting.enabled": false,
-	"python.languageServer": "Default",
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.black-formatter"
-	},
 	"python.formatting.provider": "none"
 }
