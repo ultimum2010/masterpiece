@@ -15,6 +15,6 @@ def run(en_Chewbacca_som_kommer_fra_utsiden):
     # her måtte det programmeres slik at tannhjulet treffer med sikkerhet
     chewie.motor_L.run_angle(40, 70)
     # nå skal roboten kjøre tannhjulet rundt ved bruk av høyre motor
-    chewie.__motor_work_R__.run_angle(1500, 2000)
+    chewie.__motor_work_R__.run_angle(1500, 1500)
     chewie.drive_gyro_dist(-150, 50, -250)
     chewie.drive_gyro_dist(-200, 90, -300)
