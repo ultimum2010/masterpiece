@@ -5,6 +5,7 @@ from pybricks.parameters import Port, Stop, Direction, Button, Color
 from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
+from pybricks.iodevices import Ev3devSensor
 
 class Direction:
     LEFT = 0
@@ -58,7 +59,7 @@ class Chewbacca:
         wait(1000)
 
 
-    def drive_gyro_dist(self, speed, target_angle, target_distance):
+    def drive_gyro_dist(self, speed, target_angle, target_distance, stop_at_end = True):
         reached_goal = False
         self.__driveBase__.reset()
 
@@ -91,8 +92,8 @@ class Chewbacca:
                 distance = self.__driveBase__.distance()
                 reached_goal = distance <= target_distance * -1
 
-
-        self.__driveBase__.stop()
+        if stop_at_end == True:
+            self.__driveBase__.stop()
 
 
     def line_follower(self, fargesensor: ColorSensor, driveBase: DriveBase, speed, kP, distance):
@@ -123,7 +124,7 @@ class Chewbacca:
             print("skjønte ikke hva du mente")
 
     def vri_grader(self, target_angle):
-        self.__driveBase__.turn(target_angle)
+        self.__driveBase__.turn(-1 * target_angle)
 
     def straight(self, distance):
             self.__driveBase__.straight(distance)
@@ -139,3 +140,9 @@ class Chewbacca:
         else:
             self.brain.light.on(Color.RED)
 
+    def gyro_kalibrer(self):
+        self.brain.light.on(Color.ORANGE)
+        wait(1000)
+        sensor = Ev3devSensor(Chewbacca.GYRO_SENSOR)
+        sensor.read("GYRO-CAL")
+        self.brain.light.on(Color.GREEN)
