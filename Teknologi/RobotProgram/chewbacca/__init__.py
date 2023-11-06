@@ -146,3 +146,21 @@ class Chewbacca:
         sensor = Ev3devSensor(Chewbacca.GYRO_SENSOR)
         sensor.read("GYRO-CAL")
         self.brain.light.on(Color.GREEN)
+
+    
+    def press_robot_frem(self):
+        a = self.motor_L.control.limits()
+        print(a)
+        self.motor_L.control.limits(800, 1600, 30)
+        self.motor_R.control.limits(800, 1600, 30)
+
+        self.motor_L.run(45)
+        self.motor_R.run(45)
+
+    def press_robot_frem_ferdig(self):
+        self.motor_L.stop()
+        self.motor_R.stop()
+        self.motor_L.control.limits(800, 1600, 100)
+        self.motor_R.control.limits(800, 1600, 100)
+
+
