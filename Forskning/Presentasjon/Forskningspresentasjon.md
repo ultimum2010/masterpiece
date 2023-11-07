@@ -6,13 +6,13 @@
 * Hvordan vi kom frem til problemstillingen
 * Intervju med Tom Rune, tidligere leder i Støver skolekorps om problemstilling
 * Vår problemstilling 
-## Undersøkelser- Ingeborg og Alma
+## Undersøkelser- Alma
 *  Spiss problemstilling ved å sende mail til kulturskole rektor i bodø og svolvær, og norsk kulturskoleråd
 * Undersøkte en del om økomnomien til Kulturskolen og hvordan den fordeler penger. 
 * Hva den nåverende løsningen på problemstillingen til Bodø kommune
     * spare penger via flere gruppeundevisninger
 * Stasistikken til Kulturskoleråd
-## Løsning- Alma og Ingeborg
+## Løsning- Ingeborg
 * Vår løsning er et nytt skolefag som heter kunst og kultur
     * dette faget er en blanding av de sktisterende fagene Musikk, Kunst og håntverk og litt samfunnsfag
     * Elevene lærer ting som instrumenter, samisk og norsk kultur, tegning, og hvordan produsere et eget produkt. 

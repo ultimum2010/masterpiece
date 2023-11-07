@@ -5,6 +5,12 @@
 * Intervju med Tom Rune, tidligere leder i Støver skolekorps om problemstilling
 * Spør Alma hva var problemstillingen
 
+# Problemstilling - Alma
+
+# Undersøkelser - Alma
+
+# Løsning - Ingeborg
+
 ## Deling av løsning etter Sivert
 * Fortelle om spørreundersøkelse
 * Spør Alma om hva har vi forbedret etter tilbakemeldingene
@@ -17,5 +23,5 @@
 - Så spurte vi om de kunne tenke seg at deres favorittkjendis lærte de å spille et instrument eller å synge i skolen. Da svarte 68% ja
 Da kan vi konkludere at vårt fag ville vært populært blant barn og unge
 
-
+## Spør Sivert om begrensninger i løsningen etter alt vi har lært
 
