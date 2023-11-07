@@ -32,13 +32,15 @@
 * Dette er en modell av hvordan skolefaget skal se ut i virkeligheten, det skal være en ekte skole
 ## Deling av løsning- Sivert og Kasper
 * Vi har delt vår løsning med
-    * Claus, som er høyskollektor i musikkproduksjon og lydteknologi
+    * Claus, som er høyskollektor i musikkproduksjon og lydteknologi ved Kristiania Høyskole
     * Sondre Justad sin Manager
     * Alexsander Rybak sin manager 
     * Vegard, Kulturskolerektor i Svolvær
+    * Spørreundersøkelse - Kasper
 ## forbedring av problemstilling og løsning- Kasper og Ingeborg
-* Etter tilbakemeldinger fra Eksperter
+* Etter tilbakemeldinger fra Eksperter - Alma og Ingeborg
 * Forskjellige versjoner av skolefaget til de skolene som ikke har så mye penger, eller de som vil bruke litt mer penger. 
+* Tolkning av spørreundersøkelsen - Kasper
 ## begrensninger og problemer med løsningen- Kasper og Sivert
 * Forsinkeler i lydavspillingen når det er digitalt
 * Kjendiser har ikke allti tid til å være med på sånne prosjekter
