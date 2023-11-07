@@ -11,7 +11,8 @@
   - Tabell skal vi nevne det
 
 - Forbedring
-  - nye metoder for å gjøre oppdraget sikrere når vi skal koble oss mot tannhjuler 
+  - nye metoder for å gjøre oppdraget sikrere når vi skal koble oss mot tannhjuler
+  - enkelt å bruke fra utsiden og mer komplisert fra innsiden
 
 ### Forskning
 
