@@ -2,14 +2,12 @@
 ## Intro-Ingeborg
 * Hva vi har til felles
 * Introduskjon av laget 
-## Prosess om problemstilling- Kasper og Alma
+## Prosess om problemstilling- Kasper
 * Hvordan vi kom frem til problemstillingen
 * Intervju med Tom Rune, tidligere leder i Støver skolekorps om problemstilling
 ## Valgt problemstilling - Alma
 * Alle kandidater til problemstilling
 * Valgt problemstilling 
-### Vise modell 
-* Dette er en modell av hvordan skolefaget skal se ut i virkeligheten, det skal være en ekte skole
 ## Undersøkelser- Alma
 *  Spiss problemstilling ved å sende mail til kulturskole rektor i bodø og svolvær, og norsk kulturskoleråd
 * Undersøkte en del om økomnomien til Kulturskolen og hvordan den fordeler penger. 
@@ -17,6 +15,8 @@
     * spare penger via flere gruppeundevisninger
 * Stasistikken til Kulturskoleråd
 ## Løsning- Ingeborg
+### Vise modell 
+* Dette er en modell av hvordan skolefaget skaAl se ut i virkeligheten, det skal være en ekte skole
 * Vår løsning er et nytt skolefag som heter kunst og kultur
     * dette faget er en blanding av de sktisterende fagene Musikk, Kunst og håntverk og litt samfunnsfag
     * Elevene lærer ting som instrumenter, samisk og norsk kultur, tegning, og hvordan produsere et eget produkt. 

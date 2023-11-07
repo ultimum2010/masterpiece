@@ -34,7 +34,7 @@
 * vise et program som forklare hvordan man bruker programmeringen, og så viser vi et program som viser innsiden.
 * M07 og hvilke blokker den bruker
 ## Kjøre et program- Kasper
-## Strategi på banen- Alma og Ingeborg
+## Strategi på banen- Ingeborg
 ## Github- Alma 
 * Merge conflict er når flere brukere endrer på samme fil og samme linje, og så committer til skyen, da spør github om hjelp fra brukere :( 
 ## Problem og forbedringer med robot og program- Sivert og Kasper 
