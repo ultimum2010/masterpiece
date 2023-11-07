@@ -2,10 +2,14 @@
 ## Intro-Ingeborg
 * Hva vi har til felles
 * Introduskjon av laget 
-## Problemstilling- Kasper og Alma
+## Prosess om problemstilling- Kasper og Alma
 * Hvordan vi kom frem til problemstillingen
 * Intervju med Tom Rune, tidligere leder i Støver skolekorps om problemstilling
-* Vår problemstilling 
+## Valgt problemstilling - Alma
+* Alle kandidater til problemstilling
+* Valgt problemstilling 
+### Vise modell 
+* Dette er en modell av hvordan skolefaget skal se ut i virkeligheten, det skal være en ekte skole
 ## Undersøkelser- Alma
 *  Spiss problemstilling ved å sende mail til kulturskole rektor i bodø og svolvær, og norsk kulturskoleråd
 * Undersøkte en del om økomnomien til Kulturskolen og hvordan den fordeler penger. 
@@ -26,10 +30,6 @@
     * Apper der man lærer muskk, en ekstiterende app heter Duolingo Music. 
 * Lærerne må være tilstede selv om det er foreskempel hologrammer der som skal undervise. 
 * Få kjendiser til å være med i faget som en lærer eller til å filme en video der de forteller hva elevene skal lære den timen.
-## Modell- Alma og Ingeborg
-* ( Vise modell)
-* Forklare video av Modell
-* Dette er en modell av hvordan skolefaget skal se ut i virkeligheten, det skal være en ekte skole
 ## Deling av løsning- Sivert og Kasper
 * Vi har delt vår løsning med
     * Claus, som er høyskollektor i musikkproduksjon og lydteknologi ved Kristiania Høyskole
@@ -37,10 +37,14 @@
     * Alexsander Rybak sin manager 
     * Vegard, Kulturskolerektor i Svolvær
     * Spørreundersøkelse - Kasper
-## forbedring av problemstilling og løsning- Kasper og Ingeborg
-* Etter tilbakemeldinger fra Eksperter - Alma og Ingeborg
+## forbedring av problemstilling - Alma
+* Hvordan reklamere og rekrutter for Kulturskolen når det er dyrt å være med og dyrt å rekruttere lærere
+## forbedring av løsning - Ingeborg
 * Forskjellige versjoner av skolefaget til de skolene som ikke har så mye penger, eller de som vil bruke litt mer penger. 
-* Tolkning av spørreundersøkelsen - Kasper
+   * Basis versjon med App og forhåndsinnstilt video
+      * Det er allerede eksisterende app som heter DuoLingo Music og det er mest sannsynlig er gratis for skolene siden den første appen også er gratis
+   * Avansert versjon med Motion Capture teknologi
+#  Tolkning av spørreundersøkelsen - Kasper
 ## begrensninger og problemer med løsningen- Kasper og Sivert
 * Forsinkeler i lydavspillingen når det er digitalt
 * Kjendiser har ikke allti tid til å være med på sånne prosjekter
