@@ -45,7 +45,7 @@
       * Det er allerede eksisterende app som heter DuoLingo Music og det er mest sannsynlig er gratis for skolene siden den første appen også er gratis
    * Avansert versjon med Motion Capture teknologi
 #  Tolkning av spørreundersøkelsen - Kasper
-## begrensninger og problemer med løsningen- Kasper og Sivert
+## begrensninger og problemer med løsningen- Sivert
 * Forsinkeler i lydavspillingen når det er digitalt
 * Kjendiser har ikke allti tid til å være med på sånne prosjekter
 * CopyRight
