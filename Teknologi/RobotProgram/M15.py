@@ -41,7 +41,7 @@ def run1(en_Chewbacca_som_kommer_fra_utsiden):
     chewie.__driveBase__.stop()
     chewie.drive_gyro_dist(150, 135, 180)
     chewie.vri_grader(-50)
-    chewie.drive_gyro_dist(400, 85, 100)
+    chewie.drive_gyro_dist(400, 90, 100)
     chewie.drive_gyro_dist(600, 93, 400)
     chewie.drive_gyro_dist(600, 100, 55)
     chewie.drive_gyro_dist(600, 110, 750)
