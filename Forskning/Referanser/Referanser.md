@@ -1,11 +1,15 @@
 # Fagfolk vi har fått hjelp fra
-- Tobias Karlsen
-   - Systemutvikler, CoWork AS
-   - Bruker mye kunstig intelligens verktøy i jobben sin
-   - Hjalp oss med veiledning til bruk av ChatGPT
 - Tom-Rune Borgan
    - Leder, Støver Korps frem til 2023
-   - Intervjuet om problemstillingen
 - Claus Sohn Andersen
    - Høyskolelektor i Lydteknikk og musikkproduksjon
    - Institutt for musikk, Høyskolen Kristiania
+- Vegard Sandbukt
+   - Rektor, Vågan Kulturskole
+- Julius Diesen
+   - Manager til Sondre Justad, Beyond Management
+- Egil Hofsli
+   - kommunikasjonssjef, Norsk kulturskoleråd
+- Tobias Karlsen
+   - Systemutvikler, CoWork AS
+   - Hjalp oss med veiledning til bruk av ChatGPT
