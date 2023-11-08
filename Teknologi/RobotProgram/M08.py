@@ -22,26 +22,27 @@ def endprepos():
     chewie.__motor_work_L__.run_angle(120, -50)
 
 
+
 def run1(en_Chewbacca_som_kommer_fra_utsiden):
     global chewie
     chewie = Chewbacca()
     #chewie = en_Chewbacca_som_kommer_fra_utsiden
-    
     chewie.gyro.reset_angle(0)
-
-
+    
     startprepos()
 
-    chewie.drive_gyro_dist(200, 0, 300)
-    chewie.drive_gyro_dist(100, 108, 380)
+    #dytt ned sperren på kameraskinnen
+    chewie.drive_gyro_dist(100, 0, 50)
+    chewie.vri_grader(-100)
+    chewie.drive_gyro_dist(200, -95, 100)
+    chewie.drive_gyro_dist(200, -90, 300)
 
     endprepos()
-    
-    chewie.vri_grader(40)
-    chewie.__driveBase__.stop()
-    chewie.drive_gyro_dist(150, 135, 180)
-    chewie.vri_grader(-50)
-    chewie.drive_gyro_dist(400, 90, 100)
-    chewie.drive_gyro_dist(600, 93, 400)
-    chewie.drive_gyro_dist(600, 100, 55)
-    chewie.drive_gyro_dist(600, 110, 750)
+
+    chewie.drive_gyro_dist(50, -88, 100)
+    chewie.drive_gyro_dist(50, -90, 40)
+    chewie.drive_gyro_dist(300, -90, -300)
+
+    #hent ekspert
+    chewie.vri_grader(80)
+    chewie.drive_gyro_dist(200, -60 ,100)

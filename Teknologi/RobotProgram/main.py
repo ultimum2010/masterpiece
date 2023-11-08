@@ -10,6 +10,7 @@ import M07
 import M01
 import M04
 import M15
+import M08
 
 chewie = Chewbacca()
 
@@ -87,7 +88,7 @@ while True:
                 elif prognr == 1:
                     M15.run1(chewie)
                 elif prognr == 2:
-                    pass
+                    M08.run1(chewie)
                 elif prognr == 3:
                     pass
                 elif prognr == 4:
