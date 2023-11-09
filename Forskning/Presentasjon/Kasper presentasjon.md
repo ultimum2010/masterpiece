@@ -12,7 +12,7 @@
 # Løsning - Ingeborg
 
 ## Deling av løsning etter Sivert
-* Fortelle om spørreundersøkelse
+* Fortelle om spørreundersøkelse og hvorfor vi valgte 4.klasse
 * Spør Alma om hva har vi forbedret etter tilbakemeldingene
 
 ## Tolkning av spørrundersøkelsen etter Ingeborg
