@@ -11,6 +11,7 @@ import M01
 import M04
 import M15
 import M08
+import flytting
 
 chewie = Chewbacca()
 
@@ -88,9 +89,9 @@ while True:
                 elif prognr == 1:
                     M15.run1(chewie)
                 elif prognr == 2:
-                    M08.run1(chewie)
+                    flytting.run(chewie)
                 elif prognr == 3:
-                    pass
+                    M08.run1(chewie)
                 elif prognr == 4:
                     M14.run(chewie)
                 elif prognr == 5:
