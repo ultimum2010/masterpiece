@@ -41,7 +41,7 @@
 ## Kjøre et program- Sivert mens kasper forklarer M12-13
 ## Strategi på banen- Ingeborg
 * vi har felles startspunkt
-* vi flytter roboten med hånden for å spare tid, det som er dumt med dette er hvist det ikke funker på første forsjøk.
+* vi flytter roboten med hånden for å spare tid, det som er dumt med dette er at hvist andre programm ikke funker så mister vi mere en 1 presisjonsbrikke.
 * vi har brukt tabeller for å se hvilken oppdrag som gir mest poeng og sparer mest tid.
 ## Github- Alma 
 * Merge conflict er når flere brukere endrer på samme fil og samme linje, og så committer til skyen, da spør github om hjelp fra brukere :( 
