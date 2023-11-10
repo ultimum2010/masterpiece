@@ -34,7 +34,7 @@
 ## Forklare et progam- Alle
 ## M07 - Alma
 
-*Sivert forklarer drive_gyro_dist
+* Sivert forklarer drive_gyro_dist
 * Noen visste hva de forskjellige blokkene gjorde, mens andre brukte de.
 * vise et program som forklare hvordan man bruker programmeringen, og så viser vi et program som viser innsiden.
 * M07 og hvilke blokker den bruker
