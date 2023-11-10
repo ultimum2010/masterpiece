@@ -7,7 +7,6 @@
 * Utfordringer med Python:
 * Det er nytt og noen ganger vanskelig å forstå
 * Mye som kan bli feil, små ting kan være en stor feil
-* Vanskelig å forklare til andre hvordan det funker
 * Å vite hvor feilen er
 
 ## Forklare program M12-13 imens Sivert kjører etter Alma M07
