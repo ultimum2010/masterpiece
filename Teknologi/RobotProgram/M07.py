@@ -16,7 +16,7 @@ def run(chewbacca):
     # vi må bruke den "chewbacca" fra linje 10 som kommer fra masterprogram. 
     # Vi må lage noe som peker på "chewbacca" koden, og det er "chewie". "chewie" er en variabel
     #chewie = chewbacca
-
+ 
     chewie.gyro.reset_angle(0)
     #kjøring til vendepunkt
     # Chewbacca vet hvordan man skal kjøre med gyro
