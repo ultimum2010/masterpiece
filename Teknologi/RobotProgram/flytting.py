@@ -1,8 +1,5 @@
 #!/usr/bin/env pybricks-micropython
 from chewbacca import Chewbacca
-from pybricks.parameters import Stop
-from pybricks.tools import wait
-
 
 def startprepos():
     chewie.__motor_work_L__.control.limits(1500, 4000, 35)
@@ -22,26 +19,17 @@ def endprepos():
     chewie.__motor_work_L__.run_angle(120, -50)
 
 
-def run1(en_Chewbacca_som_kommer_fra_utsiden):
+def run(en_Chewbacca_som_kommer_fra_utsiden):
     global chewie
     chewie = Chewbacca()
     #chewie = en_Chewbacca_som_kommer_fra_utsiden
     
-    chewie.gyro.reset_angle(0)
-
-
     startprepos()
 
-    chewie.drive_gyro_dist(200, 0, 300)
-    chewie.drive_gyro_dist(100, 108, 380)
+    chewie.drive_gyro_dist(100, 0, 110)
+    chewie.vri_grader(-95)
+    chewie.drive_gyro_dist(600, -95, 1300)
 
     endprepos()
-    
-    chewie.vri_grader(40)
-    chewie.__driveBase__.stop()
-    chewie.drive_gyro_dist(150, 135, 180)
-    chewie.vri_grader(-50)
-    chewie.drive_gyro_dist(400, 90, 100)
-    chewie.drive_gyro_dist(600, 93, 400)
-    chewie.drive_gyro_dist(600, 100, 55)
-    chewie.drive_gyro_dist(600, 110, 750)
+
+    chewie.drive_gyro_dist(300, -110, 400)
